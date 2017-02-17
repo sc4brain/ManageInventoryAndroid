@@ -1,0 +1,7 @@
+#Sat Feb 18 05:16:22 JST 2017
+base.0=C\:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_14b683b1f951296c8f505966befc87cc263cbdd4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dfb8653b74eaeb0f3b276877eb3b6864684de985\\classes.dex
+base.1=C\:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_dfb8653b74eaeb0f3b276877eb3b6864684de985
+file.0=C\:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_14b683b1f951296c8f505966befc87cc263cbdd4\\classes.dex
