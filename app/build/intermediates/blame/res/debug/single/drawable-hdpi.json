@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\cygwin64\\home\\nebula\\git\\ManageInventoryAndroid\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
-    },
-    {
-        "merged": "C:\\cygwin64\\home\\nebula\\git\\android-vision\\visionSamples\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\cygwin64\\home\\nebula\\git\\android-vision\\visionSamples\\barcode-reader\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/home/nebula/IdeaProjects/ManageInventoryAndroid/app/src/main/res/drawable-hdpi/icon.png"
     }
 ]

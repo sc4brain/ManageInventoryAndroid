@@ -19,11 +19,17 @@ package com.google.android.gms.samples.vision.barcodereader;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Handler;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -49,14 +55,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private TextView statusMessage;
     private TextView barcodeValue;
     private EditText targetNumber;
-    private EditText targetName;
-    private EditText targetState;
+    private TextView targetName;
+    private TextView targetState;
+    private Handler handler;
+
 
     private static final int RC_BARCODE_CAPTURE = 9001;
     private static final String TAG = "BarcodeMain";
 
     String data_str = "";
     String log_str = "";
+    String inventory_url = "http://192.168.0.249/inventory/";
+    String tmp_state;
+    String msg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,14 +77,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
         statusMessage = (TextView)findViewById(R.id.status_message);
         barcodeValue = (TextView)findViewById(R.id.barcode_value);
         targetNumber = (EditText)findViewById(R.id.target_number);
-        targetName = (EditText)findViewById(R.id.target_name);
-        targetState = (EditText)findViewById(R.id.target_state);
+        targetName = (TextView)findViewById(R.id.target_name);
+        targetState = (TextView)findViewById(R.id.target_state);
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
 
+        handler = new Handler();
+
         findViewById(R.id.read_barcode).setOnClickListener(this);
-        findViewById(R.id.send_data).setOnClickListener(this);
+        findViewById(R.id.check_data).setOnClickListener(this);
+        findViewById(R.id.update).setOnClickListener(this);
+//        ((EditText) findViewById(R.id.target_number)).addTextChangedListener(this);
+
     }
 
     /**
@@ -91,11 +107,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
         }
-        if (v.getId() == R.id.send_data) {
+        if (v.getId() == R.id.check_data) {
             this.getData();
-            targetName.setText(data_str);
+//            targetName.setText(data_str);
 
 //            targetState.setText("OK");
+        }
+        if (v.getId() == R.id.update) {
+            this.updateData();
         }
     }
 
@@ -128,10 +147,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 if (data != null) {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     statusMessage.setText(R.string.barcode_success);
-                    barcodeValue.setText(barcode.displayValue);
+                    barcodeValue.setText(barcode.displayValue.replaceAll(" ", ""));
 
-                    targetNumber.setText(barcode.displayValue);
-                    this.getData();
+                    targetNumber.setText(barcode.displayValue.replaceAll(" ", ""));
+//                    this.getData();
 
                     Log.d(TAG, "Barcode read: " + barcode.displayValue);
                 } else {
@@ -148,6 +167,30 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
+
+    static String stateToString(String state) {
+        String str;
+        int int_state;
+        try {
+            int_state = Integer.parseInt(state.replaceAll(" ", ""));
+        }catch(NumberFormatException e){
+            return "Error";
+        }
+
+        if (state.length() == 0) {
+            str = "Not Checked";
+        } else if (int_state == 0) {
+            str = "Not Checked";
+        } else if (int_state == 1) {
+            str = "OK";
+        } else if (int_state == 4) {
+            str = "Warning";
+        } else {
+            str = "Not Checked";
+        }
+        return str;
+
+    }
 
     static String InputStreamToString(InputStream is) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
@@ -178,7 +221,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 }
 
                 try {
-                    URL url = new URL("http://192.168.0.249/inventory/getinfo.php" + send_string);
+                    URL url = new URL(inventory_url +"getinfo.php" + send_string);
                     HttpURLConnection con = (HttpURLConnection) url.openConnection();
                     con.setRequestMethod("GET");
                     data_str = InputStreamToString(con.getInputStream());
@@ -188,22 +231,68 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 } catch (Exception ex) {
                     System.out.println(ex);
                 }
-//                handler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        TextView textViewNameData = (TextView) findViewById(R.id.textViewNameData);
-//                        TextView textViewPlaceData = (TextView) findViewById(R.id.textViewPlaceData);
-//
-//                        String[] record = data_str.split("\t", 0);
-//                        Log.d("TAG", record[0]);
-//                        Log.d("TAG", record[1]);
-//                        Log.d("TAG", record[2]);
-//                        //textViewNameData.setText(record[0]);
-//                        textViewNameData.setText(record[0]);
-//                        textViewPlaceData.setText(record[1]);
-//                    }
-//                });
+
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        TextView targetName = (TextView) findViewById(R.id.target_name);
+                        TextView targetTeam = (TextView) findViewById(R.id.target_team);
+                        TextView targetState = (TextView) findViewById(R.id.target_state);
+
+                        targetName.setText(data_str);
+                        String[] record = data_str.split(",", 0);
+
+                        if (record.length < 4 || record[0].isEmpty()) {
+                            targetName.setText("Error!");
+                            targetTeam.setText("");
+                            targetState.setText("");
+                        }else {
+                            targetName.setText(record[1]);
+                            targetTeam.setText(record[2]);
+                            targetState.setText(stateToString(record[3]));
+                        }
+                    }
+                });
             }
         }).start();
     }
+
+    private void updateData() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String number = targetNumber.getText().toString();
+                String user = "someone";
+                String checked = "1";
+
+                String send_string = new String();
+                try {
+                    send_string = "update.php?cmd=update&number=" + URLEncoder.encode(number, "UTF8") + "&checked=" + URLEncoder.encode(checked, "UTF8") + "&user=" + URLEncoder.encode(user, "UTF8");
+                    Log.d("TAG", send_string);
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+
+                try {
+                    URL url = new URL(inventory_url + send_string);
+                    HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                    con.setRequestMethod("GET");
+                    msg = InputStreamToString(con.getInputStream());
+                    con.disconnect();
+                    Log.d("TAG", msg);
+                    log_str = send_string;
+                } catch (Exception ex) {
+                    System.out.println(ex);
+                }
+
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getBaseContext(), msg, Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+        }).start();
+    }
+
 }
