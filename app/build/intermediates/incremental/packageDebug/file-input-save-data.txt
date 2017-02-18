@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 19 03:42:17 JST 2017
+#Sun Feb 19 03:47:21 JST 2017
 20.base=C\:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=C\:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\resources-debug.ap_

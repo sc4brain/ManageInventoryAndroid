@@ -12,12 +12,12 @@
         "source": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\cygwin64\\home\\nebula\\ManageInventoryAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",

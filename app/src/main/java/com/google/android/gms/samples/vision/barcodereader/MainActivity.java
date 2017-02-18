@@ -110,7 +110,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
 
-            this.getData();
         }
         if (v.getId() == R.id.check_data) {
             this.getData();
@@ -159,9 +158,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     statusMessage.setText(R.string.barcode_success);
                     barcodeValue.setText(barcode.displayValue.replaceAll(" ", ""));
-
                     targetNumber.setText(barcode.displayValue.replaceAll(" ", ""));
-//                    this.getData();
+                    this.getData();
 
                     Log.d(TAG, "Barcode read: " + barcode.displayValue);
                 } else {

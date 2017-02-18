@@ -3,7 +3,7 @@
     package="com.google.android.gms.samples.vision.barcodereader"
     android:installLocation="auto"
     android:versionCode="1"
-    android:versionName="2.5" >
+    android:versionName="2.6" >
 
     <uses-sdk
         android:minSdkVersion="19"
