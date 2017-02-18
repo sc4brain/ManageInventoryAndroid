@@ -3,11 +3,11 @@
     package="com.google.android.gms.samples.vision.barcodereader"
     android:installLocation="auto"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="2.5" >
 
     <uses-sdk
-        android:minSdkVersion="18"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
 
     <uses-feature android:name="android.hardware.camera" />
 

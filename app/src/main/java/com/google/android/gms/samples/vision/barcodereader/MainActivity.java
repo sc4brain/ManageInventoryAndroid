@@ -57,6 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private EditText targetNumber;
     private TextView targetName;
     private TextView targetState;
+    private EditText targetUser;
     private Handler handler;
 
 
@@ -79,6 +80,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         targetNumber = (EditText)findViewById(R.id.target_number);
         targetName = (TextView)findViewById(R.id.target_name);
         targetState = (TextView)findViewById(R.id.target_state);
+        targetUser = (EditText)findViewById(R.id.target_username);
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
@@ -106,14 +108,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Intent intent = new Intent(this, BarcodeCaptureActivity.class);
             intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
             intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
-
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
+
+            this.getData();
         }
         if (v.getId() == R.id.check_data) {
             this.getData();
-//            targetName.setText(data_str);
-
-//            targetState.setText("OK");
         }
         if (v.getId() == R.id.update_ok){
             tmp_state = "1";
@@ -194,6 +194,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             str = "Not Checked";
         } else if (int_state == 1) {
             str = "OK";
+        } else if (int_state == 2) {
+            str = "Note";
         } else if (int_state == 4) {
             str = "Warning";
         } else {
@@ -214,7 +216,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         return sb.toString();
     }
 
-    private void getData() {
+    public void getData() {
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -273,7 +275,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             @Override
             public void run() {
                 String number = targetNumber.getText().toString();
-                String user = "someone";
+                String user = targetUser.getText().toString();
                 String checked = tmp_state;
 
                 String send_string = new String();
@@ -302,6 +304,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                         Toast.makeText(getBaseContext(), msg, Toast.LENGTH_LONG).show();
                     }
                 });
+                getData();
             }
         }).start();
     }

@@ -3,192 +3,309 @@
 
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_9e5a99a69e6fca5f66a36666adc2f7105508faa0.jar" />
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_947bfbe131788d6abca667411fff20bdbbfa9335.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_067858133b90172bfdc49cf04da25921c8011f26.jar" />
+        revision="25.0.1"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_d7de7dc4ce3a17bcbb0346b43741494d7d004d38.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_f689247121c9f0cc51d51091ff930325b9d3b66e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_a120e4d62a237572fd4e9f8bbeb56fed77c3340e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nebula\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_69c0d8d701bbc4092643071d47b4d32dcabc030f.jar" />
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_d6e9a4b5a8eea19b96a66168315c8060bce2a179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_0538ca2edcbc36972871feef8d174d8c05547446.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_fab382f3e6b843edc61ca957934434f944150018.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_12bd59f907c0e6c881ac19560d7ec85d65de1375.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nebula\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_d6e9a4b5a8eea19b96a66168315c8060bce2a179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_ba6aaa0d2bf44ffdc8a8804b98327afdff8dcaab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_06cd631dafb181da37a07e638601344c10918b29.jar" />
     </item>
     <item
         is-multidex="false"
         jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
         <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_0aaab5a88e5f5be8ef538610e352cda567af2afd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_ac45e2368e9fe89b031b641a92da1f206cacb3a6.jar" />
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_e6cbd16ca430281a53e361b57457144660d9c81f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_76aaac2d805480c591ba3a90a0e322831085a903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_eb4062730e7e8a3e57588ef1eb4dce15f2083339.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_b83487097137d20ea07ddd0b304858ef140afc1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_1555fe565a7fc505c2db774404754ef1dfcc1594.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_ba6aaa0d2bf44ffdc8a8804b98327afdff8dcaab.jar" />
     </item>
     <item
         is-multidex="false"
         jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
         <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_fab382f3e6b843edc61ca957934434f944150018.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_934a5f9c6578b2fcff1775d74a6405244444e43b.jar" />
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_947bfbe131788d6abca667411fff20bdbbfa9335.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_ab45686f2acc1ab720fcfbc19dac3f1cbf23aa71.jar" />
+        revision="25.0.1"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.1_a120e4d62a237572fd4e9f8bbeb56fed77c3340e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_92eee821c4c02526bb1daf8439d562bbdc1715ec.jar" />
+        revision="25.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_7f86daf8576fa20e3a9cbf3e9d1571a22f72df16.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_6ff57721bc3d22db25ee2a8bdcb979accd57ec30.jar" />
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_f689247121c9f0cc51d51091ff930325b9d3b66e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_ba4bfab9f6229d5172aee1ca888a77892e024352.jar" />
+        revision="25.0.1"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_d7de7dc4ce3a17bcbb0346b43741494d7d004d38.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d0002539ba5a8930d0d6651847b43dfeb295d12c.jar" />
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_12bd59f907c0e6c881ac19560d7ec85d65de1375.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_63f0320c08544dd609053a1d194556a71d5f8673.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_ee154177c731dd38fa7633f0dd752f27423b5593.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_43614a6c2d289a2ae85c9112872e285f0ad6263d.jar" />
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_0538ca2edcbc36972871feef8d174d8c05547446.jar" />
     </item>
     <item
         is-multidex="false"
         jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_7f86daf8576fa20e3a9cbf3e9d1571a22f72df16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_1555fe565a7fc505c2db774404754ef1dfcc1594.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_e6cbd16ca430281a53e361b57457144660d9c81f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_b83487097137d20ea07ddd0b304858ef140afc1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_0aaab5a88e5f5be8ef538610e352cda567af2afd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.1_06cd631dafb181da37a07e638601344c10918b29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_eb4062730e7e8a3e57588ef1eb4dce15f2083339.jar" />
     </item>
     <item
         is-multidex="false"
         jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.1"
         sha1="670df81539ab71918d49b186598b7eff08ef6563">
         <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_76aaac2d805480c591ba3a90a0e322831085a903.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_6dae8c93dda21230ec2490619634ce0487e763c4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_dc97d84e12564214b4bd50b97fa6ea1c62211924.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\nebula\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_ca5ade7eeecdda2ef0e5f595bbe0fbfd03a93393.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="C:\cygwin64\home\nebula\ManageInventoryAndroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_7600c9a08f45d2173b51d7b98c396edf3a6bd2f5.jar" />
     </item>
 
 </items>
