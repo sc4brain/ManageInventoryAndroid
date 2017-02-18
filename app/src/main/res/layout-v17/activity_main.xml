@@ -104,13 +104,40 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
-        android:id="@+id/update" />
+        android:id="@+id/update_note"
+        android:text="Not used"
+        android:background="@android:color/holo_blue_bright" />
+
+    <Button
+        android:text="Not Found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/update_note"
+        android:layout_toEndOf="@+id/read_barcode"
+        android:id="@+id/update_not_found"
+        android:background="@android:color/holo_orange_light" />
+
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/update_note"
+        android:layout_toStartOf="@+id/read_barcode"
+        android:id="@+id/update_ok"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:text="ver0.2 2017"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

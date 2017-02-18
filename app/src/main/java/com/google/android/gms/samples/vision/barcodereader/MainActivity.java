@@ -87,7 +87,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
         findViewById(R.id.check_data).setOnClickListener(this);
-        findViewById(R.id.update).setOnClickListener(this);
+        findViewById(R.id.update_ok).setOnClickListener(this);
+        findViewById(R.id.update_note).setOnClickListener(this);
+        findViewById(R.id.update_not_found).setOnClickListener(this);
 //        ((EditText) findViewById(R.id.target_number)).addTextChangedListener(this);
 
     }
@@ -113,7 +115,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 //            targetState.setText("OK");
         }
-        if (v.getId() == R.id.update) {
+        if (v.getId() == R.id.update_ok){
+            tmp_state = "1";
+            this.updateData();
+        }
+        if (v.getId() == R.id.update_note){
+            tmp_state = "2";
+            this.updateData();
+        }
+        if (v.getId() == R.id.update_not_found) {
+            tmp_state = "4";
             this.updateData();
         }
     }
@@ -263,7 +274,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             public void run() {
                 String number = targetNumber.getText().toString();
                 String user = "someone";
-                String checked = "1";
+                String checked = tmp_state;
 
                 String send_string = new String();
                 try {

@@ -5,25 +5,124 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="246105312488533"
+    timestamp="247427256139729"
     token="3688362725360131137"
-    verifier="FIELD_ADDED" >
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="23" />
+        duration="73" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="11" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ee0746e7a0dcac1af769175ca0e927d9952f508/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_400dfdc7750c132319770ef962968c5a05f0729a/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_4fee57eb3423161585e9ede347c59bc527eed081/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_3c6a3fcb944340436ff3024b367091a8762d3f5d/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_70dc1fed1b06821dd579300d27987c28a86d0a46/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_ff097c088ff5095b5b707aca60e9848dae280c77/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_563153ebb6818b4b8d494562c93a9e449fe1b49b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_340623d0134978339a3c433af1034f623cb00978/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_bdf800aa2e5e2a29f2565fd85ee3645c27f1e56a/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_23d521d71eb04be705bdd57b3622eb0a186d533b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_3fb0a38169cc909185962381a65ecadee0cd6907/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_2d64faaae2f309157295ab3c944924f3d97d135a/classes.dex"
+        type="DEX" />
+    <artifact
         location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_085633b09f3885b7a720479cc856542c65e59438/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_4a7d5631db038eab92e4d32476291a5ba35d724f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_10e5b8c47ff0b10fb272ac05bb211c09f26d5c8d/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_963b460057b7d08fc8f8ee797cdcf61f3c79924b/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_a585365fbab601c1d94e7dce939b995d06b5eba2/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_e6941c0f6ba6635e4d07572016fdd10b9230946f/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_103baae0ae92a136178e68399e117bacdfc269a5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_46514d41ec009a7001402fd94996f22c004222d3/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_eda56a983beb97926c433260d4b225596d556dfe/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_66594a4c1e32c7ca9780feb8e990954c31e10f3d/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_125038cc1ad943a941ec35e2862b2b9213492979/classes.dex"
         type="DEX" />
 
     <build
@@ -34,20 +133,109 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="244004287200883"
-        verifier="CLASS_ADDED" >
+        timestamp="247427256139729"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
         <artifact
-            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ee0746e7a0dcac1af769175ca0e927d9952f508/classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="246105312488533"
-        verifier="FIELD_ADDED" >
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_400dfdc7750c132319770ef962968c5a05f0729a/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_4fee57eb3423161585e9ede347c59bc527eed081/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_3c6a3fcb944340436ff3024b367091a8762d3f5d/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_70dc1fed1b06821dd579300d27987c28a86d0a46/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_ff097c088ff5095b5b707aca60e9848dae280c77/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_563153ebb6818b4b8d494562c93a9e449fe1b49b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_340623d0134978339a3c433af1034f623cb00978/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_bdf800aa2e5e2a29f2565fd85ee3645c27f1e56a/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_23d521d71eb04be705bdd57b3622eb0a186d533b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_3fb0a38169cc909185962381a65ecadee0cd6907/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_2d64faaae2f309157295ab3c944924f3d97d135a/classes.dex"
+            type="DEX" />
         <artifact
             location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_085633b09f3885b7a720479cc856542c65e59438/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_4a7d5631db038eab92e4d32476291a5ba35d724f/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_10e5b8c47ff0b10fb272ac05bb211c09f26d5c8d/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_963b460057b7d08fc8f8ee797cdcf61f3c79924b/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_a585365fbab601c1d94e7dce939b995d06b5eba2/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_e6941c0f6ba6635e4d07572016fdd10b9230946f/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_103baae0ae92a136178e68399e117bacdfc269a5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_46514d41ec009a7001402fd94996f22c004222d3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_eda56a983beb97926c433260d4b225596d556dfe/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_66594a4c1e32c7ca9780feb8e990954c31e10f3d/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/nebula/IdeaProjects/ManageInventoryAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_125038cc1ad943a941ec35e2862b2b9213492979/classes.dex"
             type="DEX" />
     </build>
 
