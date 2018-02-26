@@ -3,6 +3,8 @@ ManageInventoryAndroid
 
 android application for ManageInventory
 
+server side program for this application could be found in [kanzaki-local-web](https://github.com/sc4brain/kanzaki-local-web) repository
+
 # Build
 
 # Screenshots
